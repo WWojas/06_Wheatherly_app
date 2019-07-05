@@ -1,0 +1,121 @@
+
+
+img.select_icon  {
+    height: 5vh;
+    margin: 5px;
+}
+
+
+form {
+
+  label {
+    color: whitesmoke;
+  }
+
+.btn {
+  background: lightseagreen;
+  border: 3px solid lightseagreen;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 10px;
+  width: 100%;
+
+  &:hover {
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    font-weight: 800
+  }
+}
+
+}
+
+
+ul.cityList {
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    list-style: none;
+    padding: 15px 0;
+   transition: opacity 1s;
+
+  li {
+    padding: 5px;
+
+    &:hover {
+      color: whitesmoke;
+      font-weight: bold;
+    }
+  }
+}
+
+.customSelect {
+  position: relative;
+
+
+ select, input, button {
+  width: 100%;
+  position: relative;
+  height: 4vh;
+  color: whitesmoke;
+  background: transparent;
+  border: 4px solid lightblue;
+  border-radius: 10px;
+
+}
+
+  option {
+    max-height: 60vh;
+    color: whitesmoke;
+    background: cornflowerblue;
+    cursor: pointer;
+  }
+
+}
+
+
+.loading_wrapper {
+  height: auto;
+  transition: height 0.5s;
+}
+
+
+
+
+
+.Weather {
+  color: whitesmoke;
+
+  h3 {
+    font-weight: bold
+  }
+
+  h2 {
+    font-size: 10vh;
+  }
+
+  span {
+    font-size: 2vh
+  }
+}
+
+
+.Weather__img {
+
+  img {
+    width: 30vw;
+    height: 12vh;
+
+  }
+}
+
+.Weather__desc {
+  font-size: 3vh;
+}
+
+.Weather__numbers {
+   color: whitesmoke;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(102,204,255,0.2);
+
+}

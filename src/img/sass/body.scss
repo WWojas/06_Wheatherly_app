@@ -1,0 +1,117 @@
+
+
+img.select_icon  {
+    height: 5vh;
+    margin: 5px;
+}
+
+
+form {
+
+  label {
+    color: whitesmoke;
+  }
+
+.btn {
+  background: lightseagreen;
+  border: 3px solid lightseagreen;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 10px;
+  width: 100%;
+
+  &:hover {
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    font-weight: 800
+  }
+}
+
+}
+
+
+.custom-select {
+  position: relative;
+
+
+ select, input, button {
+  width: 100%;
+  position: relative;
+  height: 4vh;
+  color: whitesmoke;
+  background: transparent;
+  border: 4px solid lightblue;
+  border-radius: 10px;
+
+}
+
+  option {
+    max-height: 60vh;
+    color: whitesmoke;
+    background: cornflowerblue;
+    cursor: pointer;
+  }
+
+}
+
+#loading_box:after {
+  position: absolute;
+  left: 45%;
+  top: 55px;
+  bottom: 0;
+  content: "";
+  background: url('./img/loading.svg');
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  animation: spin 0.5s infinite linear;
+}
+
+@keyframes spin {
+
+  from  {
+   transform: rotate(0deg)}
+
+  to {
+    transform: rotate(360deg)
+  }
+
+}
+
+.Weather {
+  color: whitesmoke;
+
+  h3 {
+    font-weight: bold
+  }
+
+  h2 {
+    font-size: 10vh;
+  }
+
+  span {
+    font-size: 2vh
+  }
+}
+
+
+.Weather__img {
+
+  img {
+    width: 30vw;
+    height: 12vh;
+
+  }
+}
+
+.Weather__desc {
+  font-size: 3vh;
+}
+
+.Weather__numbers {
+   color: whitesmoke;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(102,204,255,0.2);
+
+}
